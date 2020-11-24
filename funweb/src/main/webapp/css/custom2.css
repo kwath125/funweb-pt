@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'NanumBarunGothic';
+	src: url("../fonts/NanumBarunGothic.eot");
+	src: local("☺"), url("../fonts/NanumBarunGothic.woff") format("woff");
+}
+
+@font-face {
+	font-family: 'NanumGothic';
+	src: url("../fonts/NanumGothic.eot");
+	src: local("☺"), url("../fonts/NanumGothic.woff") format("woff");
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, input, select, textarea {
+	font-family: font-family : "Helvetica Neue", Helvetica, Arial, "맑은 고딕",
+		"Malgun gothic", sans-serif;
+	font-size: 13pt;
+	font-weight: 300;
+	line-height: 1.65;
+}

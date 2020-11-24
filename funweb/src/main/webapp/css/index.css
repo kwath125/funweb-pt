@@ -1,0 +1,449 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #222;
+	font-family: "Source Sans Pro", sans-serif;
+  	font-size: 12pt;
+  	font-weight: 400;
+  	color: rgba(0, 0, 0, 0.8);
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+  text-transform: uppercase;
+  color: #B39F79;
+}
+
+h2 {
+	color: #B39F79;
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+/*wrapper*/
+
+#wrapper {
+	background: #fff;
+	margin: 0px 20px;
+}
+
+.container {
+	margin: 0px auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/** HEADER */
+
+#header-wrapper {
+  background: url(/images/banner.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+#header {
+  position: relative;
+  overflow: hidden;
+  height: 550px;
+}
+
+/* logo */
+
+#logo {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	min-width: -webkit-fill-available;
+	z-index: 1;
+}
+
+
+/** PAGE */
+
+#page {
+  overflow: hidden;
+  padding: 5em 0em;
+}
+
+#page img {
+  margin-bottom: 1em;
+}
+
+#page .title {
+  margin-bottom: 2em;
+}
+
+#page .title h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#page .title .byline {
+  display: block;
+  padding-bottom: 2em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*top.jsp*/
+
+#top-menu {
+	overflow: hidden;
+	width: 100%;
+	background: #222;
+}
+
+#top-menu li {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#menu-navbar a {
+	text-align: center;
+}
+
+
+/*bottom.jsp*/
+
+#bottom-wrapper {
+	overflow: hidden;
+	padding: 5em 0em;
+	background:#222;
+	color: #fff;
+}
+
+#bottom-wrapper-box {
+	text-align: left;
+}
+
+#bottom-wrapper-box p{
+	margin: 1em;
+}
+
+#bottom-reserved {
+	overflow: hidden;
+	padding: 2em 0em;
+	text-align: center;
+	background:#222;
+	color: #fff;
+}
+
+#bottom-wrapper-box .bottom-input {
+	width: 100%;
+	height: 50px;
+	padding: 0px, 0px, 0px, 15px;
+	border: none;
+	background: #B39F79;
+	color: #fff;
+	margin-left: 0px !important;
+	margin-bottom: 15px;
+}
+
+#bottom-wrapper-box .textarea {
+	width: 100%;
+	height: 115px;
+	padding: 0px, 0px, 0px, 10px;
+	border: none;
+	background: #B39F79;
+	color: #fff;
+}
+
+#bottom-wrapper ::placeholder {
+	color: #fff;
+}
+
+#bottom-wrapper-box .bottom-send {
+	height: 50px;
+	padding: 0px, 0px, 0px, 15px;
+	border: none;
+	background: #B39F79;
+	color: #fff;
+	margin-left: 0px !important;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: right;
+}
+
+/* img */
+img {
+}
+
+/* login */
+
+#fieldset-login {
+	padding-bottom: 10px;
+}
+
+#fieldset-login label{
+	padding-bottom: 10px;
+}
+
+#fieldset-login #login-input{
+	margin-bottom: 10px;
+	width: 200px;
+}
+
+#login-label {
+	width: 80px;
+}
+
+/* join */
+#join label {
+	width: 110px;
+}
+
+#join h2, label, input {
+	margin-bottom: 10px;
+}
+
+#age-gender, .dup {
+	display: inline-block;
+	padding: 0px 15px;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+/* button */
+
+#buttons .button, .submit, .cancel {
+	display: inline-block;
+	padding: 0px 15px;
+	letter-spacing: 0.1em;
+	line-height: 3em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+button, #delete-button {
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+
+/* board */
+
+table {
+	text-align: center;
+}
+
+.table-responsive th {
+	background: rgba(0, 0, 0, 0.8);
+	color: #B39F79;
+	text-align: center;
+}
+
+#page_control {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+/* @media (max-width: 768px) {
+  #page_control {
+    float:left;
+  }
+} */
+
+#table_search {
+	display: flex;
+	align-items: center;
+	justyfy-content: center;
+}
+
+#table_search .button-search, .button{
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+#table_search .button-search {
+	margin-right: 5px;
+}
+
+/* updateUserCheck */
+
+.updateUserCheck-input{
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+/* update */
+
+.memberUpdate label {
+	width: 110px; 
+}
+
+.memberUpdate .memberUpdateConfirm {
+	width: 163px;
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+/* delete */
+.memberDelete label {
+	width: 75px;
+}
+
+
+.memberDelete .memberDeleteConfirm {
+	width: 163px;
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+/* fileContent */
+
+#fileContentButton button {
+	margin-top: 10px;
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+/* fileWriteForm */
+
+#fileWriteForm button {
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+}
+
+
+/* admin */
+#adminTable input{
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.adminInput {
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.adminButton{
+	display: inline-block;
+	padding: 0px 5px;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #B39F79;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+
+
+/* @media (max-width: 768px) {
+  #adminDeleteButton {
+    float:left;
+  }
+} */
